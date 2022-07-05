@@ -39,64 +39,223 @@
   border-radius: 50px;
 }
 
-
-
-.flex{
-    display: flex;
+.flex {
+  display: flex;
 }
 
-
-
-#donate-today{
-    text-align: center;
-    margin: 120px 0;
+#donate-today {
+  text-align: center;
+  margin: 150px 0;
 }
 
-#donate-today h1{
-    font-size: 40px;
-    margin-bottom: 20px;
+#donate-today h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
 }
 
-#donate-today .sub-title{
-    padding: 0 200px;
-    margin-bottom: 80px;
+#donate-today .sub-title {
+  padding: 0 200px;
+  margin-bottom: 80px;
 }
 
-#donate-today .row{
-    display: flex;
-    justify-content: space-evenly;
+#donate-today .row {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-#donate-today .row .amount-text{
-    background: #f1f1f1;
-    border: 1px solid #f1f1f1;
-    width: 100px;
-    float: left;
-    padding: 30px 20px;
-    border-radius: 7px;
-    font-size: 20px;
-    font-weight: 500;
+#donate-today .row .amount-text {
+  background: #f1f1f1;
+  border: 1px solid #f1f1f1;
+  width: 100px;
+  float: left;
+  padding: 30px 20px;
+  border-radius: 7px;
+  font-size: 20px;
+  font-weight: 500;
 }
 
-#donate-today .row .amount-text:hover{
-    background: #ffeeee;
-    border: 1px solid #ff5959;
+#donate-today .row .amount-text:hover {
+  background: #ffeeee;
+  border: 1px solid #ff5959;
 }
 
-#donate-today input{
-    margin-top: 70px;
-    border: none;
-    padding: 20px;
-    font-size: 20px;
-    width: 400px;
+#donate-today input {
+  margin-top: 70px;
+  border: none;
+  padding: 20px;
+  font-size: 20px;
+  width: 400px;
 }
 
-#donate-today input::placeholder{
-    color: #a7a7a7;
-    text-align: center;
+#donate-today input::placeholder {
+  color: #a7a7a7;
+  text-align: center;
 }
 
-#donate-today hr{
+#donate-today hr {
+  width: 500px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+#donate-today a {
+  color: white;
+  padding: 20px 25px;
+  background: orange;
+  border-radius: 50px;
+}
+
+#donate-plan {
+  text-align: center;
+  margin: 150px 0;
+}
+
+#donate-plan h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+#donate-plan .sub-title {
+  padding: 0 200px;
+  margin-bottom: 80px;
+}
+
+#donate-plan .flex {
+  justify-content: space-around;
+}
+
+#donate-plan .flex .col {
+  float: left;
+  padding: 80px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+#donate-plan .flex .col:first-of-type {
+  background: #4f9da679;
+}
+
+#donate-plan .flex .col:nth-of-type(2) {
+  background: #ff59598a;
+}
+
+#donate-plan .flex .col:nth-of-type(3) {
+  background: #fff4d6a1;
+}
+
+#donate-plan .flex .col img {
+  margin-bottom: 20px;
+}
+
+#contribute-1 {
+  margin: 150px 0;
+}
+
+#contribute-1 .half-width {
+  width: 50%;
+}
+
+#contribute-1 .half-width:first-of-type {
+  margin-left: 50px;
+  margin-top: 80px;
+}
+
+#contribute-1 .half-width h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+#contribute-1 .half-width p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  margin-right: 80px;
+}
+
+#contribute-1 .half-width a {
+  color: white;
+  padding: 20px 25px;
+  background: orange;
+  border-radius: 50px;
+}
+
+#contribute-1 .half-width img {
+    object-fit: cover;
     width: 500px;
-    margin: auto;
+    height: 500px;
+    margin-left: 50px;
+}
+
+#contribute-2 {
+  margin: 150px 0;
+}
+
+#contribute-2 .half-width {
+  width: 50%;
+}
+
+#contribute-2 .half-width:last-of-type {
+  margin-left: 80px;
+  margin-top: 80px;
+}
+
+#contribute-2 .half-width h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+#contribute-2 .half-width p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  margin-right: 80px;
+}
+
+#contribute-2 .half-width a {
+  color: white;
+  padding: 20px 25px;
+  background: orange;
+  border-radius: 50px;
+}
+
+#contribute-2 .half-width img {
+  object-fit: cover;
+  width: 500px;
+  height: 500px;
+  margin-left: 50px;
+}
+
+
+#contact{
+    text-align: center;
+}
+
+#contact h1{
+    font-size: 40px;
+}
+
+#contact p{
+    font-size: 18px;
+}
+
+#contact .contact-box{
+    background: #FFF4D6;
+    text-align: center;
+    padding: 80px;
+    margin: 80px 150px;
+    border-radius: 10px;
+}
+
+#contact .contact-box input{
+    width: 400px;
+    padding: 10px;
+    border: none;
+    background: #ececec;
+    border-radius: 10px 0 0 10px;
+}
+
+#contact .contact-box button{
+    background: orange;
+    border-radius: 0px 10px 10px 0;
+    padding: 10px;
+    border: none;
+    margin-left: -10px;
 }
