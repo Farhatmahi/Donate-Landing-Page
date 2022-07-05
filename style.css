@@ -15,15 +15,24 @@
 #banner {
   background: url(./images/donation9.jpg) no-repeat center / cover;
   position: relative;
-  padding: 200px 0;
-}
-
-#banner #banner-overlay {
+  padding: 300px 0 100px;
+  z-index: 1;
   text-align: center;
   color: white;
 }
 
-#banner #banner-overlay h1 {
+#banner::before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.507);
+}
+
+#banner h1 {
   font-size: 40px;
 }
 
@@ -156,7 +165,7 @@
 }
 
 #contribute-1 .half-width:first-of-type {
-  margin-left: 50px;
+  margin-left: 80px;
   margin-top: 80px;
 }
 
@@ -179,10 +188,10 @@
 }
 
 #contribute-1 .half-width img {
-    object-fit: cover;
-    width: 500px;
-    height: 500px;
-    margin-left: 50px;
+  object-fit: cover;
+  width: 500px;
+  height: 500px;
+  margin-left: 80px;
 }
 
 #contribute-2 {
@@ -223,39 +232,38 @@
   margin-left: 50px;
 }
 
-
-#contact{
-    text-align: center;
+#contact {
+  text-align: center;
 }
 
-#contact h1{
-    font-size: 40px;
+#contact h1 {
+  font-size: 40px;
 }
 
-#contact p{
-    font-size: 18px;
+#contact p {
+  font-size: 18px;
 }
 
-#contact .contact-box{
-    background: #FFF4D6;
-    text-align: center;
-    padding: 80px;
-    margin: 80px 150px;
-    border-radius: 10px;
+#contact .contact-box {
+  background: #fff4d6;
+  text-align: center;
+  padding: 80px;
+  margin: 80px 150px;
+  border-radius: 10px;
 }
 
-#contact .contact-box input{
-    width: 400px;
-    padding: 10px;
-    border: none;
-    background: #ececec;
-    border-radius: 10px 0 0 10px;
+#contact .contact-box input {
+  width: 400px;
+  padding: 10px;
+  border: none;
+  background: #ececec;
+  border-radius: 10px 0 0 10px;
 }
 
-#contact .contact-box button{
-    background: orange;
-    border-radius: 0px 10px 10px 0;
-    padding: 10px;
-    border: none;
-    margin-left: -10px;
+#contact .contact-box button {
+  background: orange;
+  border-radius: 0px 10px 10px 0;
+  padding: 10px;
+  border: none;
+  margin-left: -10px;
 }
