@@ -289,3 +289,21 @@
   border: none;
   margin-left: -10px;
 }
+
+
+#footer{
+    background: #0B0D17;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#footer h1{
+    color: orange;
+    font-family: cursive;
+    font-size: 40px;
+}
+
+#footer p{
+    font-size: 16px;
+    color: white;
+}
